@@ -22,7 +22,9 @@
     "typecheck": "tsc -b && tsc -b cypress",
     "validate": "run-p \"test -- --run\" lint typecheck test:e2e:run"
   },
-  "prettier": {},
+  "prettier": {
+    "printWidth": 100
+  },
   "eslintIgnore": [
     "/node_modules",
     "/build",
@@ -35,9 +37,11 @@
     "@remix-run/serve": "1.7.3",
     "@remix-run/server-runtime": "1.7.3",
     "bcryptjs": "2.4.3",
+    "daisyui": "^2.33.0",
     "isbot": "3.6.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "theme-change": "^2.2.0",
     "tiny-invariant": "1.3.1"
   },
   "devDependencies": {

@@ -30,7 +30,7 @@ export async function loader({ request }: LoaderArgs) {
 
 export default function App() {
   return (
-    <html lang="en" className="h-full">
+    <html data-theme="halloween" lang="en" className="h-full">
       <head>
         <Meta />
         <Links />
